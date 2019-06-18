@@ -1,0 +1,103 @@
+#idHeaderH1{
+color:white;border: 5px solid white;
+}
+a.skip-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+ 
+.sizeText {
+    font-size:1rem;
+}
+li{
+  list-style-type:none;
+}
+#idh1Cabecera{
+  color:white;border: 5px solid white;
+}
+#idSubtituloCabecera{
+  color:white;
+}
+.resaltar {
+    overflow: hidden;
+    transition: .25s box-shadow;
+}
+
+.resaltar:focus,.resaltar:hover {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18),0 4px 15px 0 rgba(0,0,0,0.15)
+}
+
+.bg-gray-l3 {
+    background-color: #f5f5f5 !important;
+    //color: #000
+}
+
+.card-text {
+	font-size:20px; 
+	line-height: 25px;
+}
+
+.medium-size {
+	font-size:25px;
+}
+.badge{
+				float:right;
+}
+
+body {
+	background-color:#f2f2f2 !important;
+}
+.header-wrapper {
+	background-color:blue;
+}
+/*
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.overlay-text {
+  //position: absolute;
+  //left: 50%;
+  //top: 10%;
+  transform: translate(0%, -100%);
+  color: white;
+  background-color: grey;
+  background: rgba(0,0,0,0.7);
+}
+*/
+
+/*
+.nav-section-home {
+    padding: 10px 8px;
+    font-family: "Open Sans", apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 13pt;
+    font-weight: normal;
+    border-bottom: 1px dashed #e0e0e0;
+    border-top-width: 0;
+    border-top-style: solid;
+    border-left: 4px solid #fff;
+    transition: background-color .4s ease;
+    transition: border-left-color .4s ease
+}
+
+.nav-section-home .fi,.nav-section-home svg {
+    float: left
+}
+
+.nav-section-home a {
+    color: #555;
+    transition: color .4s ease;
+    overflow: hidden;
+    display: block
+}
+
+.nav-section-home.selected {
+    font-weight: bold
+}
+*/
